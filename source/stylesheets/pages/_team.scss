@@ -1,6 +1,6 @@
 #team {
-  background-image: linear-gradient(0deg, white 50%, #F4F4F4 50%);
-  color: #494949;
+  background-image: linear-gradient(0deg, $white 50%, $blue-white 50%);
+  color: $dark-grey;
   height: calc(100vh - 70px);
   display: flex;
   align-items: center;
