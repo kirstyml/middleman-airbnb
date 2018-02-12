@@ -1,0 +1,15 @@
+
+<div id="team">
+  <div class="team-content">
+    <h3>This page was made by</h3>
+    <ul class="list-inline">
+      <% data.team.each do |team_member| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{team_member.github_nickname}", class:"img-circle" %>
+        <h2><%= team_member.name %></h2>
+        <p><i class="fa fa-github"></i><%= team_member.github_nickname.capitalize%></p>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
